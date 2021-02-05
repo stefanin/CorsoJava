@@ -12,25 +12,7 @@ public class EsempioDatabase {
 	
 	private Connection con;
 
-	/*public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		EsempioDatabase d = new EsempioDatabase();
-		try {
-				System.out.println(d.getConnection().isClosed());
-				d.elencoTag();
-				
-			}
-			catch (Exception e) {
-			 e.printStackTrace();
-			}
-		
 
-			
-		 
-
-
-	}
-	 */
 	
 	public Connection getConnection() {
 		if(con == null) {
