@@ -1,3 +1,4 @@
+// prova utilizzo jodbc con mariadb
 package it.corso.java.database;
 
 import java.sql.Connection;
